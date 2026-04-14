@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>breeze barra | Rua Piolim, Barra da Tijuca (Barra Olímpica), Rio de Janeiro, RJ</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','952987786056843');fbq('track','PageView');fbq('track','ViewContent');</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:'Inter',sans-serif;color:#222;overflow-x:hidden}
+.hero{min-height:100vh;background:linear-gradient(135deg, #1a3a5c 0%, #0a1628 100%);display:flex;flex-direction:column;position:relative;}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,0.45) 0%,rgba(0,0,0,0.28) 50%,rgba(0,0,0,0.58) 100%);}
+.hero-logo{position:absolute;top:20px;left:24px;z-index:3;}
+.hero-content{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;justify-content:center;flex:1;padding:80px 20px 60px;text-align:center;}
+.hero-headline{font-family:'Playfair Display',serif;font-size:clamp(28px,5vw,54px);color:#fff;line-height:1.25;margin-bottom:22px;}
+.hero-headline em{font-style:italic;}
+.hero-cond{background:rgba(10,30,70,0.84);border:1px solid rgba(201,168,76,0.5);border-radius:6px;padding:12px 24px;margin-bottom:14px;}
+.cond-lbl{font-size:10px;color:rgba(255,255,255,0.55);text-transform:uppercase;letter-spacing:2px;margin-bottom:6px;}
+.cond-val{font-size:clamp(15px,2.5vw,22px);font-weight:800;color:#fff;line-height:1.5;}
+.cond-val span{color:#c9a84c;}
+.hero-sub{font-family:'Playfair Display',serif;font-style:italic;color:rgba(255,255,255,0.82);font-size:clamp(13px,1.8vw,16px);margin-bottom:20px;}
+.hero-arrow{font-size:28px;color:#c9a84c;animation:bounce 1.5s infinite;margin-bottom:16px;display:block;}
+@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(8px)}}
+.btn-cta{display:inline-block;background:linear-gradient(135deg,#c9a84c,#c9a84ccc);color:#0a1628;font-weight:800;font-size:clamp(13px,1.8vw,16px);padding:14px 34px;border-radius:3px;text-decoration:none;border:none;cursor:pointer;transition:all 0.3s;font-family:'Inter',sans-serif;letter-spacing:0.5px;}
+.btn-cta:hover{transform:translateY(-2px);box-shadow:0 6px 24px rgba(0,0,0,0.35);}
+.benefits{background:#fff;padding:26px 20px;box-shadow:0 4px 16px rgba(0,0,0,0.07);position:relative;z-index:3;}
+.ben-grid{display:flex;max-width:900px;margin:0 auto;justify-content:space-around;align-items:center;gap:16px;flex-wrap:wrap;}
+.ben-item{display:flex;align-items:center;gap:12px;flex:1;min-width:180px;}
+.ben-icon{width:44px;height:44px;flex-shrink:0;color:#c9a84c;}
+.ben-icon svg{width:100%;height:100%;}
+.ben-text strong{display:block;font-size:13px;font-weight:700;color:#1a3a5c;}
+.ben-text span{font-size:11px;color:#666;}
+.ben-sep{width:1px;height:52px;background:#e8e8e8;flex-shrink:0;}
+.desc-block{background:#fff;padding:40px 20px 0;}
+.desc-inner{max-width:720px;margin:0 auto;text-align:center;font-size:15px;color:#444;line-height:1.8;font-family:'Playfair Display',serif;font-style:italic;border-left:3px solid #c9a84c;padding-left:20px;text-align:left;}
+.gallery{background:#f0f4f8;padding:56px 20px;}
+.sec-title{font-family:'Playfair Display',serif;font-size:clamp(20px,3.5vw,30px);color:#1a3a5c;text-align:center;margin-bottom:10px;}
+.sec-div{display:flex;align-items:center;gap:14px;max-width:280px;margin:0 auto 34px;}
+.sec-div::before,.sec-div::after{content:'';flex:1;height:1px;background:#c9a84c;}
+.gal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:1100px;margin:0 auto;}
+.gal-item img{width:100%;height:220px;object-fit:cover;border-radius:3px;display:block;}
+.gal-ph{width:100%;height:220px;border-radius:3px;}
+.gal-item figcaption{font-family:'Playfair Display',serif;font-style:italic;font-size:12px;color:#666;text-align:center;margin-top:7px;}
+.features{background:#fff;padding:56px 20px;}
+.feat-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:900px;margin:0 auto;}
+.feat-item{display:flex;align-items:flex-start;gap:14px;padding:16px;border-radius:6px;background:#f8f9fb;}
+.feat-icon{width:40px;height:40px;flex-shrink:0;background:linear-gradient(135deg,#1a3a5c,#1a3a5ccc);border-radius:6px;display:flex;align-items:center;justify-content:center;color:#c9a84c;padding:8px;}
+.feat-icon svg{width:100%;height:100%;}
+.feat-text strong{display:block;font-size:13px;font-weight:700;color:#1a3a5c;margin-bottom:3px;}
+.feat-text span{font-size:11px;color:#666;line-height:1.5;}
+.wa-mid{background:#f8f9fb;padding:32px 20px;text-align:center;border-top:1px solid #eee;}
+.wa-trigger{font-family:'Playfair Display',serif;font-size:clamp(16px,2.5vw,22px);color:#1a3a5c;margin-bottom:16px;font-style:italic;}
+.wa-btn-mid{display:inline-flex;align-items:center;gap:10px;background:#25D366;color:#fff;padding:13px 28px;border-radius:3px;text-decoration:none;font-weight:700;font-size:14px;transition:all 0.3s;}
+.wa-btn-mid:hover{transform:translateY(-2px);box-shadow:0 4px 16px rgba(37,211,102,0.4);}
+.wa-btn-mid svg{width:20px;height:20px;fill:#fff;}
+.conditions{background:#1a3a5c;padding:56px 20px;}
+.conditions .sec-title{color:#fff;}
+.conditions .sec-div::before,.conditions .sec-div::after{background:rgba(201,168,76,0.4);}
+.cond-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:840px;margin:0 auto 14px;}
+.cond-card{background:linear-gradient(135deg,#c9a84c,#c9a84ccc);border-radius:4px;padding:22px 14px;text-align:center;color:#0a1628;}
+.cc-lbl{font-size:10px;text-transform:uppercase;letter-spacing:2px;font-weight:700;opacity:0.75;margin-bottom:3px;}
+.cc-sub{font-size:9px;opacity:0.65;margin-top:3px;}
+.cc-val{font-size:clamp(18px,2.8vw,26px);font-weight:900;line-height:1.2;}
+.cond-esc{text-align:center;font-family:'Playfair Display',serif;font-style:italic;color:rgba(255,255,255,0.65);font-size:13px;margin-top:14px;}
+.form-sec{background:linear-gradient(135deg, #1a3a5c 0%, #0a1628 100%);position:relative;padding:72px 20px;}
+.form-ov{position:absolute;inset:0;background:rgba(10,22,40,0.84);}
+.form-cnt{position:relative;z-index:2;max-width:500px;margin:0 auto;text-align:center;}
+.form-title{font-family:'Playfair Display',serif;font-size:clamp(22px,3.5vw,34px);color:#fff;margin-bottom:8px;}
+.form-sub{color:rgba(255,255,255,0.6);font-size:13px;margin-bottom:26px;}
+.form-box{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:6px;padding:24px;}
+.form-box input{width:100%;padding:13px 15px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.15);background:rgba(255,255,255,0.07);color:#fff;font-size:13px;border-radius:3px;font-family:'Inter',sans-serif;outline:none;transition:border 0.3s;}
+.form-box input::placeholder{color:rgba(255,255,255,0.35);}
+.form-box input:focus{border-color:#c9a84c;}
+.form-box button{width:100%;padding:14px;background:linear-gradient(135deg,#c9a84c,#c9a84ccc);color:#0a1628;font-weight:800;font-size:14px;border:none;border-radius:3px;cursor:pointer;transition:all 0.3s;font-family:'Inter',sans-serif;}
+.form-box button:hover{transform:translateY(-2px);}
+.form-ok{display:none;padding:16px;background:rgba(34,197,94,0.12);border:1px solid rgba(34,197,94,0.3);border-radius:4px;color:#4ade80;font-size:14px;margin-top:12px;}
+.form-micro{font-family:'Playfair Display',serif;font-style:italic;color:rgba(255,255,255,0.45);font-size:11px;margin-top:10px;}
+footer{background:#060d1a;padding:16px 20px;text-align:center;color:rgba(255,255,255,0.3);font-size:11px;}
+.wa-float{position:fixed;bottom:22px;right:22px;z-index:999;width:52px;height:52px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(37,211,102,0.45);transition:all 0.3s;text-decoration:none;}
+.wa-float:hover{transform:scale(1.1);}
+.wa-float svg{width:26px;height:26px;fill:#fff;}
+.fade-in{opacity:0;transform:translateY(22px);transition:opacity 0.6s ease,transform 0.6s ease;}
+.fade-in.visible{opacity:1;transform:translateY(0);}
+@media(max-width:768px){
+  .ben-sep{display:none;}.ben-grid{flex-direction:column;align-items:flex-start;}
+  .gal-grid{grid-template-columns:1fr;}.feat-grid{grid-template-columns:1fr;}
+  .cond-grid{grid-template-columns:1fr;}
+  .hero-content{padding:80px 16px 48px;}
+  .gallery,.features,.conditions{padding:40px 16px;}
+  .form-sec{padding:48px 16px;}.form-box{padding:18px 14px;}
+}
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-logo"><span style="font-family:'Playfair Display',serif;font-size:clamp(14px,2.5vw,20px);color:#c9a84c;letter-spacing:3px;font-weight:700;text-transform:uppercase;">✦ breeze barra ✦</span></div>
+  <div class="hero-content">
+    <h1 class="hero-headline"><em>Barra Olímpica:</em><br>A localização mais valorizada do Rio em suas mãos</h1>
+    
+    <div class="hero-cond">
+      <div class="cond-lbl">Condicoes Especiais de Lancamento</div>
+      <div class="cond-val">
+        Entrada a partir de <span>Condições especiais com entrada facilitada</span><br>
+        + Parcelas a partir de <span>Ato, parcelas durante construção, pagamento das chaves e financiamento pós-chaves</span>
+      </div>
+    </div>
+    <p class="hero-sub">Apartamentos de 2 e 3 quartos na Barra Olímpica</p>
+    <span class="hero-arrow">&#8595;</span>
+    <a href="#formulario" class="btn-cta">Receber tabela e condicoes</a>
+  </div>
+</section>
+<section class="benefits fade-in">
+  <div class="ben-grid">
+    <div class="ben-item"><div class="ben-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div><div class="ben-text"><strong>Localização Estratégica na Barra Olímpica</strong><span>Região de alta valorização com infraestrutura completa e acesso privilegiado</span></div></div>
+    <div class="ben-sep"></div>
+    <div class="ben-item"><div class="ben-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="ben-text"><strong>Incorporadora Patrimar de Tradição</strong><span>Experiência consolidada no mercado de alto padrão e luxury</span></div></div>
+    <div class="ben-sep"></div>
+    <div class="ben-item"><div class="ben-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div class="ben-text"><strong>Densidade Reduzida em Terreno Amplo</strong><span>15.000m² com apenas 256 unidades garantindo privacidade e exclusividade</span></div></div>
+  </div>
+</section>
+<section class="desc-block fade-in"><div class="desc-inner">O Breeze Barra oferece apartamentos de 2 e 3 quartos com suíte, gardens com terraço privativo e coberturas em área de 55m² a 149m². Localizado na valorizada Rua Piolim, combina a conveniência da Barra Olímpica com infraestrutura de resort e proximidade aos principais centros comerciais e de negócios da região.</div></section>
+<section class="gallery fade-in">
+  <h2 class="sec-title">Viva o melhor de Rua Piolim, Barra da Tijuca (Barra Olímpica), Rio de Janeiro, RJ</h2>
+  <div class="sec-div"></div>
+  <div class="gal-grid"><figure class="gal-item"><div class="gal-ph" style="background:linear-gradient(135deg,#1a3a5c44,#1a3a5c88)"></div><figcaption>Lazer completo</figcaption></figure>
+       <figure class="gal-item"><div class="gal-ph" style="background:linear-gradient(135deg,#1a3a5c33,#1a3a5c66)"></div><figcaption>Localizacao privilegiada</figcaption></figure>
+       <figure class="gal-item"><div class="gal-ph" style="background:linear-gradient(135deg,#1a3a5c55,#1a3a5c99)"></div><figcaption>Ambientes modernos</figcaption></figure></div>
+</section>
+<section class="features fade-in">
+  <h2 class="sec-title">Por que escolher o breeze barra?</h2>
+  <div class="sec-div"></div>
+  <div class="feat-grid">
+    <div class="feat-item"><div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div><div class="feat-text"><strong>Lazer Tipo Resort Completo</strong><span>Piscinas adulto e infantil, academia, quadras esportivas e salão gourmet</span></div></div>
+    <div class="feat-item"><div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="feat-text"><strong>Assinatura Arquitetônica Exclusiva</strong><span>Projeto FEU Arquitetura com paisagismo Forma Garden e interiores Carol Miluzzi</span></div></div>
+    <div class="feat-item"><div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div class="feat-text"><strong>Vista Privilegiada e Ventilação Natural</strong><span>Vistas para lagoa e áreas verdes com iluminação e ventilação otimizada</span></div></div>
+    <div class="feat-item"><div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2.7 10.3a2.41 2.41 0 000 3.41l7.59 7.59a2.41 2.41 0 003.41 0l7.59-7.59a2.41 2.41 0 000-3.41l-7.59-7.59a2.41 2.41 0 00-3.41 0z"/></svg></div><div class="feat-text"><strong>Conectividade Total na Barra</strong><span>Acesso direto ao BRT, Linha Amarela, Parque Olímpico e Riocentro</span></div></div>
+  </div>
+</section>
+<section class="wa-mid-placeholder">
+  <p class="wa-trigger">Ficou com duvida? A gente resolve em 2 minutos</p>
+  <a href="https://wa.me/5521990975268?text=Falar%20no%20WhatsApp%20-%20breeze%20barra" class="wa-btn-mid" target="_blank"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> Falar no WhatsApp</a>
+</section>
+<section class="conditions fade-in">
+  <h2 class="sec-title">Condicoes Imperdiveis</h2>
+  <div class="sec-div"></div>
+  <div class="cond-grid"><div class="cond-card"><div class="cc-lbl">Entrada</div><div class="cc-sub">a partir de</div><div class="cc-val">Condições especiais com entrada facilitada</div></div><div class="cond-card"><div class="cc-lbl">Parcelas</div><div class="cc-val">Ato, parcelas durante construção, pagamento das chaves e financiamento pós-chaves</div><div class="cc-sub">Durante a Obra</div></div><div class="cond-card"><div class="cc-lbl">Financiamento</div><div class="cc-val" style="font-size:clamp(16px,2vw,20px)">facilitado</div><div class="cc-sub">Caixa Economica</div></div></div>
+  <p class="cond-esc">Apenas 256 unidades em terreno de 15.000m² na Barra Olímpica</p>
+</section>
+<section class="form-sec" id="formulario">
+  <div class="form-ov"></div>
+  <div class="form-cnt fade-in">
+    <h2 class="form-title">Garanta sua oportunidade</h2>
+    <p class="form-sub">Receba a tabela de precos e condicoes especiais agora</p>
+    <div class="form-box">
+      <form id="lead-form">
+        <input type="text" name="nome" placeholder="Nome completo" required>
+        <input type="tel" name="whatsapp" placeholder="WhatsApp com DDD" required>
+        <input type="hidden" name="_subject" value="Novo lead - breeze barra">
+        <button type="submit">Receber tabela e condicoes</button>
+      </form>
+      <div class="form-ok" id="form-ok">&#10003; Recebemos! Em breve nossa equipe entrara em contato.</div>
+      <p class="form-micro">Condicoes especiais de lancamento — por tempo limitado</p>
+    </div>
+  </div>
+</section>
+<footer><p>Exclusiva Imobiliaria Rio | CRECI-RJ | &copy; 2026</p></footer>
+<a href="https://wa.me/5521990975268?text=Ola,%20tenho%20interesse%20no%20breeze%20barra" class="wa-float" target="_blank"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+<script>
+document.getElementById('lead-form').addEventListener('submit',async function(e){
+  e.preventDefault();
+  const btn=this.querySelector('button');btn.textContent='Enviando...';btn.disabled=true;
+  try{
+    await fetch('https://formsubmit.co/ajax/vitortavares.lopesrio@gmail.com',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify({nome:this.nome.value,whatsapp:this.whatsapp.value,_subject:'Novo lead - breeze barra'})});
+    if(typeof fbq!=='undefined')fbq('track','Lead');
+    this.style.display='none';document.getElementById('form-ok').style.display='block';
+  }catch(err){btn.textContent='Receber tabela e condicoes';btn.disabled=false;}
+});
+const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');});},{threshold:0.1});
+document.querySelectorAll('.fade-in').forEach(el=>obs.observe(el));
+document.querySelector('.btn-cta').addEventListener('click',function(e){e.preventDefault();document.getElementById('formulario').scrollIntoView({behavior:'smooth'});});
+</script>
+</body>
+</html>
